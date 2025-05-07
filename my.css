@@ -1,0 +1,87 @@
+body{
+background-color: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+ margin: 0;
+  padding: 0;
+}
+.horizontal-bar{
+background-color: 1f293c;
+height: 10%;
+width: 100%;
+position: absolute;
+ margin: 0;
+  padding: 0;
+}
+.menu{
+float: right;
+margin-top: 5px;
+font-size: 20px;
+text-decoration: none;
+}
+#home{
+position: absolute;
+height: 500%;
+top: 150px;
+margin-left: 50px;
+font-size: 20px;
+}
+#about{
+position: absolute;
+height: 500%;
+top: 600px;
+margin-left: 50px;
+font-size: 20px;
+}
+
+#projects{
+position: absolute;
+height: 500%;
+top: 1000px;
+margin-left: 50px;
+font-size: 20px;
+}
+
+#skills{
+position: absolute;
+height: 500%;
+top: 1400px;
+margin-left: 50px;
+font-size: 20px;
+}
+
+#contact{
+position: absolute;
+height: 500%;
+top: 1800px;
+margin-left: 50px;
+font-size: 20px;
+color:black;
+
+}
+
+.skill{
+margin-bottem: 20px;
+}
+
+.progress{
+width: 600%;
+background-color:   e2e8f0;
+border-radius: hidden;
+}
+
+.progress-bar{
+background-color: 14b8a6;
+color: white;
+text-align: right;
+padding: 5px;
+width: 0;
+transition: width 1s ease-in-out;
+}
+
+ .icon-container {
+            display: flex; /* Aligns icons in a row */
+            gap: 20px; /* Adds space between icons */
+        }
+
+.bx.bxl-whatsapp, .bx.bxl-linkedin, .bx.bxl-instagram {
+    font-size: 40px; /* Change this value as needed */
+}
